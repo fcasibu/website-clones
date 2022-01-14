@@ -1,6 +1,6 @@
 # Deployed on Firebase
 
-[Website Preview](hhttps://tebexclone-nevz.web.app/)
+[Website Preview](https://tebexclone-nevz.web.app/)
 
 #
 
