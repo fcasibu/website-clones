@@ -1,6 +1,6 @@
 # Deployed on Firebase
 
-[Website Preview](https://osu-nevz.web.app/)
+[Website Preview](https://easybank-nevz.web.app/)
 
 #
 
