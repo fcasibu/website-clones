@@ -1,4 +1,4 @@
-### Screenshot
+### Preview
 
 ![](preview.png)
 
