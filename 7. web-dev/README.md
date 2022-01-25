@@ -13,6 +13,7 @@
 - Basic HTML5 and CSS3
 - Sass
 - Flexbox
+- Basic Javascript
 - Mobile-first workflow
 
 #
