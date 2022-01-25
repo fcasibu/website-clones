@@ -17,9 +17,7 @@
 
 #
 
-Still ongoing, still has a lot more to learn
+Still ongoing, still has a lot more to learn  
 
-
-#
 
 This is only intended for educational purposes. All assets were taken from the official website [here](https://web.dev/)
