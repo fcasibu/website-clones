@@ -1,6 +1,7 @@
 ### Screenshot
 
-![](preview.png)
+![](desktop.png)
+![](mobile.png)
 
 ### Links
 
@@ -11,14 +12,10 @@
 ### Built with
 
 - Basic HTML5 and CSS3
+- Basic Javascript
 - Sass
 - Flexbox
 - Mobile-first workflow
-
-#
-
-Still ongoing, still has a lot more to learn
-
 
 #
 
