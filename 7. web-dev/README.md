@@ -15,7 +15,6 @@
 - Basic Javascript
 - Sass
 - Flexbox
-- Basic Javascript
 - Mobile-first workflow
 
 #
