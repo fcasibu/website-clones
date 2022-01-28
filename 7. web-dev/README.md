@@ -15,15 +15,8 @@
 - Basic Javascript
 - Sass
 - Flexbox
-- Basic Javascript
 - Mobile-first workflow
 
 #
 
-<<<<<<< HEAD
-=======
-Still ongoing, still has a lot more to learn  
-
-
->>>>>>> 575e65d69eba0db93c06ab087e4b900ccd7c62a6
 This is only intended for educational purposes. All assets were taken from the official website [here](https://web.dev/)
