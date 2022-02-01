@@ -7,7 +7,7 @@
 
 - Official paymoapp Website: [https://www.paymoapp.com/](https://www.paymoapp.com/)
 
-- Live Demo: [https://paymo-nevz.web.app/](https://paymo-nevz.web.app/p)
+- Live Demo: [https://paymo-nevz.web.app/](https://paymo-nevz.web.app/)
 
 ### Built with
 
