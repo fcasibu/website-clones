@@ -17,3 +17,4 @@ window.addEventListener('resize', () => {
   (window.innerWidth >= 1024) ? menu.classList.remove('show-menu'): false;
   (window.innerWidth >= 1024) ? menuIcon.classList.remove('toggle-icon'): false;
 })
+
