@@ -12,3 +12,4 @@ This repository is about me practicing and applying the skills that I've learned
 6. [Hairstyle Salon](https://hairstyle-nevz.web.app/)
 7. [web.dev](https://webdev-nevz.web.app/)
 8. [paymoapp](https://paymo-nevz.web.app/)
+9. [hype4](https://hype4-nevz.web.app/)
