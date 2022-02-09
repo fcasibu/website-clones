@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <script defer src="js/script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="primary flex">
+          <div class="primary__logo">paymo</div>
+          <div class="primary__menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="primary__links flex">
+            <ul class="nav-links flex">
+              <li><a href="#">Why Paymo?</a></li>
+              <li>
+                <a href="#" class="drop-down">Features <span class="fas fa-sort-down"></span></a>
+                <div class="drop-down__menu">
+                  <a href="#">Time Tracking</a>
+                  <a href="#">Task Management</a>
+                  <a href="#">Kanban Board</a>
+                  <a href="#">Team Collaboration</a>
+                  <a href="#">Team Scheduling</a>
+                  <a href="#">Leave Planner</a>
+                  <a href="#">Gantt Chart</a>
+                  <a href="#">Invoicing & Estimates</a>
+                  <a href="#">File Proofing</a>
+                  <a href="#">Apps & Integrations</a>
+                  <a href="#">See All Features <span class="fas fa-angle-right"></span></a>
+                </div>
+              </li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Login</a></li>
+            </ul>
+            <a href="#" class="button button--transparent">Start My Trial</a>
+          </div>
+        </nav>
+        <section class="hero flex">
+          <div class="hero__left flex">
+            <h1 class="hero-title">Work better, together.</h1>
+            <p class="hero-description">
+              Keep your team aligned and engaged. Manage tasks, create team schedules, track work
+              time, and bill your clients from the same platform
+            </p>
+            <form action="#" class="">
+              <input type="email" placeholder="Work Email" />
+              <button type="Submit" class="button button--green">Start My Trial</button>
+            </form>
+          </div>
+          <div class="hero__right flex">
+            <img
+              src="https://cfw.paymoapp.com/wp-content/themes/paymo/public/img/home/header-illustration.svg.gzip"
+              alt=""
+            />
+          </div>
+        </section>
+      </div>
+    </header>
+    <main>
+      <div class="teamwork">
+        <img
+          src="https://cfw.paymoapp.com/wp-content/themes/paymo/public/img/home/handshake_1.svg.gzip"
+          alt=""
+          class="teamwork-img"
+          style="width: 100%"
+        />
+      </div>
+      <section class="features-section">
+        <div class="container">
+          <h2 class="section-title desktop">
+            A fully featured platform that allows your team to take control of their work, time, and
+            finances
+          </h2>
+          <h2 class="section-title mobile">We got all the key features you need</h2>
+          <div class="features-nav mt-3 mb-4 flex">
+            <span class="features-nav__item nav-item-selected pb-1" onclick="currentItem(1)"
+              >Task Management</span
+            >
+            <span class="features-nav__item" onclick="currentItem(2)">Time Tracking</span>
+            <span class="features-nav__item" onclick="currentItem(3)">Timesheet Reporting</span>
+            <span class="features-nav__item" onclick="currentItem(4)">Team Scheduling</span>
+            <span class="features-nav__item" onclick="currentItem(5)">Invoicing</span>
+            <span class="features-nav__item" onclick="currentItem(6)">Integrations</span>
+          </div>
+          <div class="features">
+            <div class="feature flex">
+              <h3 class="feature__title">Task Management</h3>
+              <img
+                src="https://cfw.paymoapp.com/wp-content/themes/paymo/public/img/home/features/mobile/task-management.png"
+                alt=""
+                class="feature__image task"
+              />
+              <div class="feature__functions mt-3">
+                <div class="item" onclick="currentFeature(1)">
+                  <h4 class="feature-selected">Tasks, task lists & Kanban</h4>
+                  <p>
+                    Use tasks, task lists, due dates, milestones, and the Kanban module to organize
+                    tasks and activities.
+                  </p>
+                </div>
+                <div class="item" onclick="currentFeature(2)">
+                  <h4>Advanced task management</h4>
+                  <p>
+                    Switch to an advanced tasks view with filters or check the full task view to see
+                    all task details.
+                  </p>
+                </div>
+                <div class="item" onclick="currentFeature(3)">
+                  <h4>Schedule & monitor activities</h4>
+                  <p>
+                    Schedule & monitor activity in real-time and easily make adjustments using Gantt
+                    Charts.
+                  </p>
+                </div>
+                <div class="item" onclick="currentFeature(4)">
+                  <h4>Real-time task comments</h4>
+                  <p>
+                    Start discussions with your co-workers and comment on tasks about the latest
+                    project updates.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="feature">
+              <h3 class="feature__title">Time Tracking</h3>
+              <img
+                src="https://cfw.paymoapp.com/wp-content/themes/paymo/public/img/home/features/mobile/time-tracking.png"
+                alt=""
+                class="feature__image time-tracking"
+              />
+              <div class="feature__functions">
+                <div class="item" onclick="currentFeature(5)">
+                  <h4 class="feature-selected">Desktop & mobile time tracking apps</h4>
+                  <p>
+                    Measure work time at the office and on the go via desktop and mobile apps for
+                    iOS and Android.
+                  </p>
+                </div>
+                <div class="item" onclick="currentFeature(6)">
+                  <h4>Multiple timesheet views</h4>
+                  <p>
+                    The various Timesheet views allow you to view, add, and edit time entries with
+                    only a few clicks.
+                  </p>
+                </div>
+                <div class="item" onclick="currentFeature(7)">
+                  <h4>Automatic time tracking</h4>
+                  <p>
+                    Monitor everything you're doing on your computer without having to start and
+                    stop the timer.
+                  </p>
+                </div>
+                <div class="item" onclick="currentFeature(8)">
+                  <h4>Integrated online timer</h4>
+                  <p>
+                    Ready to work? Start the stopwatch and record time spent on projects or tasks in
+                    the browser.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="feature">
+              <h3 class="feature__title">Timesheet Reporting</h3>
+              <img
+                src="https://cfw.paymoapp.com/wp-content/themes/paymo/public/img/home/features/mobile/timesheet-reporting.png"
+                alt=""
+                class="feature__image timesheet"
+              />
+              <div class="feature__functions">
+                <div class="item">
+                  <h4 class="feature-selected">Static & live updating time reports</h4>
+                  <p>
+                    See what you’ve been working on daily and how much time you spent on each task
+                    or project.
+                  </p>
+                </div>
+                <div class="item">
+                  <h4>Share reports with clients</h4>
+                  <p>
+                    Keep your clients up to date about the project's progress through live and
+                    static reports.
+                  </p>
+                </div>
+                <div class="item">
+                  <h4>Customizable report builder</h4>
+                  <p>
+                    When creating a report, choose from more than 20 parameters to personalize it
+                    accordingly.
+                  </p>
+                </div>
+                <div class="item">
+                  <h4>Real-time task comments</h4>
+                  <p>
+                    Start discussions with your co-workers and comment on tasks about the latest
+                    project updates.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="feature">
+              <h3 class="feature__title">Team Scheduling</h3>
+              <img
+                src="https://cfw.paymoapp.com/wp-content/themes/paymo/public/img/home/features/mobile/team-scheduling.png"
+                alt=""
+                class="feature__image"
+              />
+              <div class="feature__functions">
+                <div class="item">
+                  <h4 class="feature-selected">Bird’s-eye view of team utilisation</h4>
+                  <p>
+                    You can easily see on a visual timeline who's available for work, over or
+                    underbooked too.
+                  </p>
+                </div>
+                <div class="item">
+                  <h4>Employee & project schedules timeline</h4>
+                  <p>
+                    See your bookings for the team and for all your projects on the same screen by
+                    switching views.
+                  </p>
+                </div>
+                <div class="item">
+                  <h4>Automatic Bookings</h4>
+                  <p>
+                    “Ghost bookings” show up based on previous data that can then be converted into
+                    real ones.
+                  </p>
+                </div>
+                <div class="item">
+                  <h4>Built-in Leave Planner</h4>
+                  <p>
+                    Start discussions with your co-workers and comment on tasks about the latest
+                    project updates.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="feature">
+              <h3 class="feature__title">Invoicing</h3>
+              <img
+                src="https://cfw.paymoapp.com/wp-content/themes/paymo/public/img/home/features/mobile/invoicing.png"
+                alt=""
+                class="feature__image"
+              />
+              <div class="feature__functions">
+                <div class="item">
+                  <h4 class="feature-selected">Create estimates based on project data</h4>
+                  <p>
+                    Create estimates based on a project plan and share them with the client for
+                    approval.
+                  </p>
+                </div>
+                <div class="item">
+                  <h4>Multi-language invoices</h4>
+                  <p>
+                    Turn timesheet data into an invoice or manually create one in multiple
+                    languages.
+                  </p>
+                </div>
+                <div class="item">
+                  <h4>Add & track expenses</h4>
+                  <p>
+                    Record and keep track of the expenses you incur for a project and easily add
+                    them to your invoices.
+                  </p>
+                </div>
+                <div class="item">
+                  <h4>Accept online payments for your invoices</h4>
+                  <p>
+                    Create invoices in Paymo and get paid directly from the invoice through a
+                    payment gateway.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="feature">
+              <h3 class="feature__title">Integrations</h3>
+              <img
+                src="https://cfw.paymoapp.com/wp-content/themes/paymo/public/img/home/features/mobile/integrations.png"
+                alt=""
+                class="feature__image"
+              />
+              <div class="feature__functions">
+                <div class="item">
+                  <h4 class="feature-selected">GSuite Google Apps integration</h4>
+                  <p>
+                    Paymo’s integration with Google Apps allows you to use Single Sign-On, attach
+                    and link any of your Google Drive files directly to Paymo
+                  </p>
+                </div>
+                <div class="item">
+                  <h4>Slack</h4>
+                  <p>
+                    Convert chat messages into tasks, add task comments, link a specific project to
+                    a channel or track time without leaving Slack
+                  </p>
+                </div>
+                <div class="item">
+                  <h4>Quickbooks & Xero</h4>
+                  <p>
+                    Easily covert your timesheets into Invoices in Paymo and export to your
+                    accounting app of choice
+                  </p>
+                </div>
+                <div class="item">
+                  <h4>Paymo API & Zapier</h4>
+                  <p>
+                    Connect Paymo to any open system via our API or automate and integrate via
+                    Zapier with hundreds of apps
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="buttons mt-3 flex">
+            <a href="#" class="button button--green">Pricing & Signup</a>
+            <a href="#" class="button button--transparent">Full Features List</a>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials">
+        <div class="container">
+          <h2 class="section-title">Don’t just take our word for it</h2>
+          <p class="section-description">
+            See what other managers, creatives, consultants, software engineers, architects, and
+            freelancers who use our work management platform daily<a href="#">
+              have to say about it.</a
+            >
+          </p>
+          <div class="testimonial flex">
+            <div class="testimonial__info flex">
+              <img
+                src="https://cfw.paymoapp.com/wp-content/themes/paymo/public/img/testimonials/video-testimonial-photo.jpg"
+                alt=""
+                class="testimonial__image"
+              />
+              <h3>Andrew Nicholas, <span>CEO</span></h3>
+              <img
+                src="https://cfw.paymoapp.com/wp-content/themes/paymo/public/img/testimonials/pixel-parlor-logo.svg.gzip"
+                alt=""
+                class="pixel-parlor-logo"
+              />
+            </div>
+            <div class="testimonial__quote">
+              <blockquote cite="https://www.paymoapp.com/">
+                <img
+                  src="https://cfw.paymoapp.com/wp-content/themes/paymo/public/img/paymo-icons/quotation-marks.svg.gzip"
+                  alt=""
+                />
+                <p>
+                  Our studio enjoys the streamlining that the Paymo platform provides across the
+                  entire project life cycle. From estimation to kickoff to design phases and
+                  invoicing, Paymo handles it all and is able to seamlessly avoid classic
+                  bottlenecks that can occur when many team members are on the same project.
+                </p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="statistics">
+        <div class="container">
+          <div class="stats grid">
+            <div class="stat flex">
+              <img
+                src="https://cfw.paymoapp.com/wp-content/themes/paymo/public/img/paymo-icons/48x48/folder-checkmark.svg.gzip"
+                alt=""
+                class="stat__image"
+              />
+              <p class="stat__title">Projects Managed</p>
+              <p class="large">2.12M</p>
+            </div>
+            <div class="stat flex">
+              <img
+                src="https://cfw.paymoapp.com/wp-content/themes/paymo/public/img/paymo-icons/48x48/stopwatch.svg.gzip"
+                alt=""
+                class="stat__image"
+              />
+              <p class="stat__title">Hours Tracked</p>
+              <p class="large">110.35M</p>
+            </div>
+            <div class="stat flex">
+              <img
+                src="https://cfw.paymoapp.com/wp-content/themes/paymo/public/img/paymo-icons/48x48/paper-dollar-rounded.svg.gzip"
+                alt=""
+                class="stat__image"
+              />
+              <p class="stat__title">Dollars Billed</p>
+              <p class="large">2.08B</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container">
+          <div class="input-box flex">
+            <h2 class="section-title">Help your team work better, try Paymo</h2>
+            <form action="" class="email-box flex">
+              <input type="email" name="email" placeholder="Work Email" required />
+              <button class="button button--green" type="submit">Start My Trial</button>
+            </form>
+            <p>Just Getting Started with Project Management?</p>
+            <a
+              href="#"
+              style="text-decoration: underline; color: var(--primary-color); font-weight: bold"
+              >Get a Free Account Here</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

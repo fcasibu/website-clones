@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>HairStyle | Interior Design Bootstrap Theme by WebThemez</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="wrapper">
+        <nav class="site-nav">
+          <div class="site-logo">Hair<span>Style</span></div>
+          <div class="dark-mode">
+            <input type="checkbox" id="toggle-switch" />
+            <label for="toggle-switch">
+              <div class="moon"><i class="bi bi-moon-fill"></i></div>
+              <div class="sun"><i class="bi bi-sun-fill"></i></div>
+            </label>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#" class="link-selected">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#about">Portfolio</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#price">Price</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+      <ul class="menu-links">
+        <li><a href="">Home</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Portfolio</a></li>
+        <li><a href="">Team</a></li>
+        <li><a href="">Price</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </header>
+
+    <section class="carousel">
+      <div class="carousel-box">
+        <div class="left-arrow" onclick="addSlide(-1)">
+          <i class="bi bi-arrow-left-short"></i>
+        </div>
+        <div class="right-arrow" onclick="addSlide(1)">
+          <i class="bi bi-arrow-right-short"></i>
+        </div>
+        <div class="box-item fade">
+          <h1 class="item-title">Trendy Hair Styles</h1>
+          <p class="item-description">Professional salon</p>
+        </div>
+        <div class="box-item fade">
+          <h1 class="item-title">Best Hair Salon</h1>
+          <p class="item-description">Popular in town</p>
+        </div>
+        <div class="box-item fade">
+          <h1 class="item-title">Trendy Beauty Look</h1>
+          <p class="item-description">Outstanding looks</p>
+        </div>
+        <div class="line-indicator">
+          <span class="line" onclick="currentSlide(1)"></span>
+          <span class="line" onclick="currentSlide(2)"></span>
+          <span class="line" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="wrapper">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-description">
+          WenTo creative technology company providing key digital services for everyone.
+        </p>
+        <div class="services-content flex">
+          <div class="service">
+            <img src="assets/img/services/4.svg" alt="" class="service-img" />
+            <h3 class="service-title">Home Interior</h3>
+            <p class="service-description">
+              Achieve virtually any look and layout design within one UI Kit solution.
+            </p>
+          </div>
+          <div class="service">
+            <img src="assets/img/services/1.svg" alt="" class="service-img" />
+            <h3 class="service-title">Custom Design</h3>
+            <p class="service-description">
+              We strive to figure out ways to help your audience grow through all platforms.
+            </p>
+          </div>
+          <div class="service">
+            <img src="assets/img/services/5.svg" alt="" class="service-img" />
+            <h3 class="service-title">Business Interior</h3>
+            <p class="service-description">
+              Find what you need in one template and combine features at will.
+            </p>
+          </div>
+          <div class="service">
+            <img src="assets/img/services/3.svg" alt="" class="service-img" />
+            <h3 class="service-title">Security Setup</h3>
+            <p class="service-description">
+              Easy and fast adjustments of elements are possible with WenTo UI Kit.
+            </p>
+          </div>
+          <div class="service">
+            <img src="assets/img/services/6.svg" alt="" class="service-img" />
+            <h3 class="service-title">Custom Paint</h3>
+            <p class="service-description">
+              Easy and fast adjustments of elements are possible with WenTo UI Kit.
+            </p>
+          </div>
+          <div class="service">
+            <img src="assets/img/services/2.svg" alt="" class="service-img" />
+            <h3 class="service-title">Home Decor</h3>
+            <p class="service-description">
+              Power your app with Angular components for no cost within one stop solution.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id class="offers">
+      <div class="wrapper">
+        <h2 class="section-title">Best Offers</h2>
+        <p class="section-description">
+          There are many variations of passages of Lorem Ipsum available, but the majority
+        </p>
+        <div class="offers-cards flex">
+          <div class="card">
+            <img src="assets/img/portfolio/img4.jpg" alt="" class="card-img" />
+            <div class="card-content">
+              <h3 class="card-title">Bridal Hair Style</h3>
+              <p class="card-description">
+                Some quick example text to build on the card title and make up the bulk of the
+                card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/img/portfolio/img5.jpg" alt="" class="card-img" />
+            <div class="card-content">
+              <h3 class="card-title">Fully Beauty Touch</h3>
+              <p class="card-description">
+                Some quick example text to build on the card title and make up the bulk of the
+                card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/img/portfolio/img6.jpg" alt="" class="card-img" />
+            <div class="card-content">
+              <h3 class="card-title">Nails Touchup</h3>
+              <p class="card-description">
+                Some quick example text to build on the card title and make up the bulk of the
+                card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="wrapper">
+        <h2 class="section-title">About Us</h2>
+        <p class="section-description">
+          WenTo creative technology company providing key digital services for everyone
+        </p>
+        <div class="about-box flex">
+          <img
+            src="assets/img/about/1.jpg"
+            alt=""
+            class="about-img"
+            style="border-radius: 0.4rem"
+          />
+          <div class="content">
+            <h3 class="content-title">Who We Are</h3>
+            <p class="content-description">
+              There are many variations of passages of Lorem Ipsum available, but the majority have
+              suffered alteration in some form, by injected humour, or randomised words. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit. Eius eligendi fugiat!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mission">
+      <div class="wrapper">
+        <div class="mission-box flex">
+          <div class="content">
+            <h3 class="content-title">Our Mission and Goals</h3>
+            <p class="content-description">
+              There are many variations of passages of Lorem Ipsum available, but the majority have
+              suffered alteration in some form, by injected humour, or randomised words. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit. Eius eligendi fugiat!
+            </p>
+          </div>
+          <img
+            src="assets/img/about/2.jpg"
+            alt=""
+            class="mission-img"
+            style="border-radius: 0.4rem"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+      <div class="wrapper">
+        <h2 class="section-title">Portfolio</h2>
+        <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      </div>
+      <div class="buttons">
+        <button class="all button button--selected">All</button>
+        <button class="graphics button">Graphic</button>
+        <button class="ui-project button">UI Project</button>
+        <button class="fullstack button">Fullstack</button>
+      </div>
+      <div class="projects">
+        <div class="project graphic">
+          <a href="" class="project-content">
+            <h3>My Profile</h3>
+            <p>view</p>
+          </a>
+        </div>
+        <div class="project graphic">
+          <a href="" class="project-content">
+            <h3>My Profile</h3>
+            <p>view</p>
+          </a>
+        </div>
+        <div class="project ui-project">
+          <a href="" class="project-content">
+            <h3>My Profile</h3>
+            <p>view</p>
+          </a>
+        </div>
+        <div class="project fullstack">
+          <a href="" class="project-content">
+            <h3>My Profile</h3>
+            <p>view</p>
+          </a>
+        </div>
+        <div class="project graphic">
+          <a href="" class="project-content">
+            <h3>My Profile</h3>
+            <p>view</p>
+          </a>
+        </div>
+        <div class="project ui-project">
+          <a href="" class="project-content">
+            <h3>My Profile</h3>
+            <p>view</p>
+          </a>
+        </div>
+        <div class="project fullstack">
+          <a href="" class="project-content">
+            <h3>My Profile</h3>
+            <p>view</p>
+          </a>
+        </div>
+        <div class="project fullstack">
+          <a href="" class="project-content">
+            <h3>My Profile</h3>
+            <p>view</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="offers">
+      <div class="wrapper">
+        <div class="offer">
+          <div class="left-content">
+            <h3>Offer</h3>
+            <p>50% off on Annual subscription.. grab the deal before it go!</p>
+          </div>
+          <div class="right-content">
+            <a href="#" class="button">Subscribe</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="team-section">
+      <div class="wrapper">
+        <h2 class="section-title">Our Team</h2>
+        <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        <div class="team">
+          <div class="card">
+            <img src="assets/img/team/img1.jpg" alt="" class="card-img" />
+            <h3 class="card-name">James Rally</h3>
+            <p class="card-title">CEO</p>
+            <div class="card-socials">
+              <a href="https://www.facebook.com/Maxi" title="Facebook"
+                ><span class="bi bi-facebook"></span
+              ></a>
+              <a href="https://www.instagram.com/Maxi" title="instagram"
+                ><span class="bi bi-instagram"></span
+              ></a>
+              <a href="https://www.twitter.com/Maxi" title="Twitter"
+                ><span class="bi bi-twitter"></span
+              ></a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/img/team/img2.jpg" alt="" class="card-img" />
+            <h3 class="card-name">Kristen Viller</h3>
+            <p class="card-title">Trainer</p>
+            <div class="card-socials">
+              <a href="https://www.facebook.com/Maxi" title="Facebook"
+                ><span class="bi bi-facebook"></span
+              ></a>
+              <a href="https://www.instagram.com/Maxi" title="instagram"
+                ><span class="bi bi-instagram"></span
+              ></a>
+              <a href="https://www.twitter.com/Maxi" title="Twitter"
+                ><span class="bi bi-twitter"></span
+              ></a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/img/team/img4.jpg" alt="" class="card-img" />
+            <h3 class="card-name">Johanna Care</h3>
+            <p class="card-title">Trainer</p>
+            <div class="card-socials">
+              <a href="https://www.facebook.com/Maxi" title="Facebook"
+                ><span class="bi bi-facebook"></span
+              ></a>
+              <a href="https://www.instagram.com/Maxi" title="instagram"
+                ><span class="bi bi-instagram"></span
+              ></a>
+              <a href="https://www.twitter.com/Maxi" title="Twitter"
+                ><span class="bi bi-twitter"></span
+              ></a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/img/team/img3.jpg" alt="" class="card-img" />
+            <h3 class="card-name">Bruce Williamson</h3>
+            <p class="card-title">Trainer</p>
+            <div class="card-socials">
+              <a href="https://www.facebook.com/Maxi" title="Facebook"
+                ><span class="bi bi-facebook"></span
+              ></a>
+              <a href="https://www.instagram.com/Maxi" title="instagram"
+                ><span class="bi bi-instagram"></span
+              ></a>
+              <a href="https://www.twitter.com/Maxi" title="Twitter"
+                ><span class="bi bi-twitter"></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="price" class="prices">
+      <div class="wrapper">
+        <h2 class="section-title">Price</h2>
+        <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        <div class="cards">
+          <div class="price">
+            <p class="price-plan">Basic Plan</p>
+            <p class="price-tag">$120</p>
+            <div class="benefits">
+              <p>Includes:</p>
+              <ul>
+                <li>Basic Point One</li>
+                <li>Basic Point Two</li>
+                <li>Basic Point Three</li>
+                <li>Basic Point Four</li>
+              </ul>
+            </div>
+            <a href="#" class="button">Buy Now</a>
+          </div>
+          <div class="price">
+            <p class="price-plan">Silver Plan</p>
+            <p class="price-tag">$450</p>
+            <div class="benefits">
+              <p>Includes:</p>
+              <ul>
+                <li>Silver Point One</li>
+                <li>Silver Point Two</li>
+                <li>Silver Point Three</li>
+                <li>Silver Point Four</li>
+              </ul>
+            </div>
+            <a href="#" class="button button--selected">Buy Now</a>
+          </div>
+          <div class="price">
+            <p class="price-plan">Gold Plan</p>
+            <p class="price-tag">$850</p>
+            <div class="benefits">
+              <p>Includes:</p>
+              <ul>
+                <li>Gold Point One</li>
+                <li>Gold Point Two</li>
+                <li>Gold Point Three</li>
+                <li>Gold Point Four</li>
+              </ul>
+            </div>
+            <a href="#" class="button">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="wrapper">
+        <div class="items">
+          <div class="item">
+            <h3 class="item-number">45</h3>
+            <p class="item-title">Trainer</p>
+          </div>
+          <div class="item">
+            <h3 class="item-number">114</h3>
+            <p class="item-title">Equipments</p>
+          </div>
+          <div class="item">
+            <h3 class="item-number">245</h3>
+            <p class="item-title">Customers</p>
+          </div>
+          <div class="item">
+            <h3 class="item-number">2</h3>
+            <p class="item-title">Cafeteria</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial-section">
+      <div class="wrapper">
+        <h2 class="section-title">Testimonials</h2>
+        <p class="section-description">
+          Maxi creative technology company providing key digital services for everyone.
+        </p>
+        <div class="testimonials">
+          <div class="testimonial">
+            <blockquote>
+              <span class="bi bi-quote"></span> There are many variations of passages of Lorem Ipsum
+              available, but the majority have suffered alteration.
+            </blockquote>
+            <div class="content">
+              <img src="assets/img/ava/img2.jpg" alt="" />
+              <div class="info">
+                <h3>Kristen Morres</h3>
+                <p>XL Director</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <blockquote>
+              <span class="bi bi-quote"></span> There are many variations of passages of Lorem Ipsum
+              available, but the majority have suffered alteration.
+            </blockquote>
+            <div class="content">
+              <img src="assets/img/ava/img3.jpg" alt="" />
+              <div class="info">
+                <h3>James Vintel</h3>
+                <p>VNT Manager</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contacts-section">
+      <div class="wrapper">
+        <h2 class="section-title">Let us know</h2>
+        <p class="section-description">
+          There are many variations of passages of Lorem Ipsum available, but the majority
+        </p>
+        <div class="contact">
+          <div class="left-contact">
+            <form action="">
+              <input type="text" id="fname" name="fname" placeholder="Full Name" required />
+              <input type="email" id="email" name="email" placeholder="Email" required />
+              <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+              <input type="submit" value="Send your Message" class="button" />
+            </form>
+          </div>
+          <div class="right-contact">
+            <div class="box">
+              <span class="bi bi-file-person-fill"></span>
+              <div class="info">
+                <h3>Address</h3>
+                <p>132 Manhatten Str., NewYork, US</p>
+              </div>
+            </div>
+            <div class="box">
+              <span class="bi bi-inbox-fill"></span>
+              <div class="info">
+                <h3>Email</h3>
+                <p>mail@webthemez.com</p>
+              </div>
+            </div>
+            <div class="box">
+              <span class="bi bi-telephone-fill"></span>
+              <div class="info">
+                <h3>Phone Number</h3>
+                <p>mail@webthemez.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="wrapper">
+        <div class="footer-content">
+          <div class="left-footer">
+            <p>
+              <a href="https://webthemez.com/free-bootstrap-templates/">Bootstrap Theme</a> by
+              WebThemez.
+            </p>
+            <p>© All Rights Reserved</p>
+          </div>
+          <div class="right-footer">
+            <a href="https://www.facebook.com/Maxi"><span class="bi bi-facebook"></span></a>
+            <a href="https://www.instagram.com/Maxi"><span class="bi bi-instagram"></span></a>
+            <a href="https://twitter.com/Maxi"><span class="bi bi-twitter"></span></a>
+            <a href="https://dribbble.com/Maxi"><span class="bi bi-dribbble"></span></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
