@@ -1,1 +1,0 @@
-# Starbucks website clone
