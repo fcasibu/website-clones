@@ -15,6 +15,8 @@ window.addEventListener('resize', () => {
   if (window.innerWidth > 768) {
     menuIcon.classList.remove('toggle-menu');
     menuLinks.classList.remove('show-links');
+    main.classList.remove('pointer-events');
+    menuLinks.style.border = "none"
   }
 });
 
