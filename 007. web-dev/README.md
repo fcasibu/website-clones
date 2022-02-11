@@ -7,7 +7,7 @@
 
 - Official web.dev Website: [https://web.dev/](https://web.dev/)
 
-- Live Demo: [Website Preview](https://webdev-nevz.web.app)
+- Live Demo: [Website Preview](https://webdev-nevz.firebaseapp.com/)
 
 ### Built with
 
