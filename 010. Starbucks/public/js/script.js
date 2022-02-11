@@ -15,8 +15,6 @@ window.addEventListener('resize', () => {
   if (window.innerWidth > 768) {
     menuIcon.classList.remove('toggle-menu');
     menuLinks.classList.remove('show-links');
-    main.classList.remove('pointer-events');
-    menuLinks.style.border = "none"
   }
 });
 
@@ -57,3 +55,10 @@ leftArrow.addEventListener('click', () => {
     document.documentElement.style.setProperty('--slider', `0%`);
   }
 });
+
+const items = document.querySelectorAll('.item');
+
+items.forEach((item) => item.addEventListener('click', () => {
+  item.lastElementChild.classList.toggle('drop-down');
+  item.firstElementChild.children[1].classList.toggle('rotate-arrow');
+}))
