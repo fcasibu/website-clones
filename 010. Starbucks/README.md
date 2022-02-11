@@ -13,7 +13,7 @@ This is only intended for educational purposes. All assets were taken from the o
 
 - Starbucks: [https://app.starbucks.com/](https://app.starbucks.com/)
 
-- Live Demo:
+- Live Demo: [https://starbucks-nevz.web.app/](https://starbucks-nevz.web.app/)
 
 ### Built with
 
@@ -25,3 +25,5 @@ This is only intended for educational purposes. All assets were taken from the o
 ##
 
 Layouts, animations, and DOM manipulation are my weaknesses right now. For DOM manipulation, I kind of hard coded the carousel. CSS animation is definitely the hardest for me though, I really enjoyed making it, but at the same time dreaded the fact that it took so much time creating one simple animation.
+
+
