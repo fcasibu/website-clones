@@ -1,20 +1,21 @@
-const body = document.querySelector('body');
-const main = document.querySelector('main');
+const sections = document.querySelector('.sections');
 const menuIcon = document.querySelector('.primary__menu-icon');
 const menuLinks = document.querySelector('.primary__links');
 
 menuIcon.addEventListener('click', () => {
   menuIcon.classList.toggle('toggle-menu');
-  menuLinks.classList.toggle('show-links');
-  menuLinks.style.borderTop = "3px solid #e6e6e6";
-  main.classList.toggle('pointer-events');
-  body.style.overflow = 'hidden';
+  menuLinks.classList.toggle('show-links');;
+  sections.classList.toggle('pointer-events');
+  document.body.classList.toggle('overflow');
 });
 
 window.addEventListener('resize', () => {
   if (window.innerWidth > 768) {
     menuIcon.classList.remove('toggle-menu');
     menuLinks.classList.remove('show-links');
+    orderMenuItems.classList.remove('show-order');
+    sections.classList.remove('pointer-events');
+    document.body.classList.remove('overflow');
   }
 });
 
@@ -62,3 +63,14 @@ items.forEach((item) => item.addEventListener('click', () => {
   item.lastElementChild.classList.toggle('drop-down');
   item.firstElementChild.children[1].classList.toggle('rotate-arrow');
 }))
+
+const orderMenu = document.querySelector('.order-menu');
+const orderMenuItems = document.querySelector('.order-menu-items');
+
+orderMenu.addEventListener('click', () => {
+  orderMenuItems.classList.add('show-order')
+})
+
+orderMenuItems.firstElementChild.addEventListener('click', () => {
+  orderMenuItems.classList.remove('show-order');
+})

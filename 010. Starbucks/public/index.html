@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/script.js" defer></script>
     <title>Starbucks Coffee Company</title>
   </head>
   <body>
+    <button class="button button--fixed">Start an order</button>
     <header class="header">
       <div class="container">
         <nav class="primary flex">
@@ -22,14 +26,34 @@
             class="primary__logo"
           />
           <ul class="primary__links flex">
+            <div class="order-menu-items">
+              <div href="#">
+                <i class="fa-solid fa-angle-left"></i>
+                <h3>Order</h3>
+              </div>
+              <a href="#">All products</a>
+              <a href="#">Featured</a>
+              <a href="#">Previous Orders</a>
+              <a href="#">Favorite Products</a>
+            </div>
             <div class="left-links flex">
-              <li><a href="#">Order</a></li>
-              <li><a href="#">Cards</a></li>
-              <li><a href="#">Gift</a></li>
+              <a href="#" class="order-menu">
+                <li>Order</li>
+                <i class="fa-solid fa-angle-right"></i>
+              </a>
+              <a href="order.html" class="order-menu-large">
+                <li>Order</li>
+              </a>
+              <a href="#">
+                <li>Cards</li>
+              </a>
+              <a href="#">
+                <li>Gift</li>
+              </a>
             </div>
             <div class="right-links flex">
               <li>
-                <a href="#"><i class="bi bi-geo-alt-fill"></i> Find a store</a>
+                <a href="#"><i class="fa-solid fa-location-dot"></i> Find a store</a>
               </li>
               <div class="buttons flex">
                 <li><a href="#" class="button button--white">Sign in</a></li>
@@ -54,8 +78,8 @@
           <div class="container flex">
             <h3>starbucks® rewards</h3>
             <div class="reward-container flex">
-              <span class="left-arrow"><i class="bi bi-caret-left-fill"></i></span>
-              <span class="right-arrow"><i class="bi bi-caret-right-fill"></i></span>
+              <span class="left-arrow"><i class="fa-solid fa-angle-left"></i></span>
+              <span class="right-arrow"><i class="fa-solid fa-angle-right"></i></span>
               <div class="reward">
                 <img
                   src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/digitalcontent.starbucks.com/udp/us/en/assets/rewards-carousel-1-small_tcm121-71130.jpg"
@@ -159,7 +183,7 @@
               <div class="item">
                 <div class="text flex">
                   <h3>About Us</h3>
-                  <i class="bi bi-arrow-down-short arrow"></i>
+                  <i class="fa-solid fa-angle-down arrow"></i>
                 </div>
                 <div class="link-item flex">
                   <a href="#">Our Company</a>
@@ -173,7 +197,7 @@
               <div class="item">
                 <div class="text flex">
                   <h3>Careers</h3>
-                  <i class="bi bi-arrow-down-short arrow"></i>
+                  <i class="fa-solid fa-angle-down arrow"></i>
                 </div>
                 <div class="link-item flex">
                   <a href="#">Culture and Values</a>
@@ -187,7 +211,7 @@
               <div class="item">
                 <div class="text flex">
                   <h3>Social Impact</h3>
-                  <i class="bi bi-arrow-down-short arrow"></i>
+                  <i class="fa-solid fa-angle-down arrow"></i>
                 </div>
                 <div class="link-item flex">
                   <a href="#">People</a>
@@ -198,7 +222,7 @@
               <div class="item">
                 <div class="text flex">
                   <h3>For Business Partners</h3>
-                  <i class="bi bi-arrow-down-short arrow"></i>
+                  <i class="fa-solid fa-angle-down arrow"></i>
                 </div>
                 <div class="link-item flex">
                   <a href="#">Landlord Support Center</a>
@@ -210,7 +234,7 @@
               <div class="item">
                 <div class="text flex">
                   <h3>Order and Pickup</h3>
-                  <i class="bi bi-arrow-down-short arrow"></i>
+                  <i class="fa-solid fa-angle-down arrow"></i>
                 </div>
                 <div class="link-item flex">
                   <a href="#">Order on the App</a>
@@ -222,6 +246,21 @@
               </div>
             </div>
             <hr />
+            <div class="socials">
+              <a href="#"><i class="fa-brands fa-spotify"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="footer-links">
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms of Use</a>
+              <a href="#">CA Suply Chain Act</a>
+              <a href="#">Cookie Preferences</a>
+              <p>© 2022 Starbucks Coffee Company. All rights reserved.</p>
+            </div>
           </div>
         </footer>
       </div>
