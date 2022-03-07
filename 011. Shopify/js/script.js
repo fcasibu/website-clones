@@ -20,7 +20,8 @@ closeIcon.addEventListener("click", () => {
 });
 
 menuDropDown.forEach((el) =>
-  el.addEventListener("click", () => {
+  el.addEventListener("click", (e) => {
+    e.preventDefault();
     el.children[1].classList.toggle("show-dropdown");
   })
 );
